@@ -1,0 +1,53 @@
+.footer {
+    background: #211F9E;
+    height: 452px;
+    padding-top: 9%;
+    .footer-container {
+        display: flex;
+        .contact-us {
+            .title {
+                font-family: Oswald;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                color: #FFFFFF;
+            }
+            .btn-contact {
+                background: #FFFFFF;
+                border-radius: 3px;
+                color: #2B2424;
+                font-family: Roboto;
+                font-weight: bold;
+                font-size: 16px;
+                padding: 15px 20px;
+                border: none;
+                margin-top: 40px;
+            }
+        }
+        .block-contacts {
+            display: flex;
+            .contact-us-item {
+                .title {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: 0.6px;
+                    color: #FFF5F5;
+                }
+                .ul {
+                    padding-left: 0;
+                    list-style: none;
+                    .li {
+                        color: #FFFFFF;
+                    
+                    }
+                }
+            }
+            .contact-us-info {
+                color: white;
+            }
+        }
+    }
+}
