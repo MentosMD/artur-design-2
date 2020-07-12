@@ -9,6 +9,7 @@ import { SharedModule } from './shared/common/common.module'
 import { HomeModule } from './home/home.module'
 import { ServicePriceModule } from './service-price/service-price.module'
 import { PortfolioModule } from './portfolio/portfolio.module'
+import { LandingModule } from './landing/landing.module'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PortfolioModule } from './portfolio/portfolio.module'
     SharedModule,
     HomeModule,
     ServicePriceModule,
-    PortfolioModule
+    PortfolioModule,
+    LandingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
