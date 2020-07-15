@@ -10,6 +10,7 @@ import { HomeModule } from './home/home.module'
 import { ServicePriceModule } from './service-price/service-price.module'
 import { PortfolioModule } from './portfolio/portfolio.module'
 import { LandingModule } from './landing/landing.module'
+import { ShoppingModule } from './shopping/shopping.module'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LandingModule } from './landing/landing.module'
     HomeModule,
     ServicePriceModule,
     PortfolioModule,
-    LandingModule
+    LandingModule,
+    ShoppingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
