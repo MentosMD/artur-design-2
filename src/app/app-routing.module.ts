@@ -6,6 +6,7 @@ import { ServicePriceComponent } from './service-price/service-price.component'
 import { PortfolioComponent } from './portfolio/portfolio.component'
 import { LandingComponent } from './landing/landing.component'
 import { ShoppingComponent } from './shopping/shopping.component'
+import { BusinessCardComponent } from './ business-card/ business-card.component'
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'services/shopping',
     component: ShoppingComponent
+  },
+  {
+    path: 'services/business-card',
+    component: BusinessCardComponent
   }
 ];
 

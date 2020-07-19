@@ -11,6 +11,7 @@ import { ServicePriceModule } from './service-price/service-price.module'
 import { PortfolioModule } from './portfolio/portfolio.module'
 import { LandingModule } from './landing/landing.module'
 import { ShoppingModule } from './shopping/shopping.module'
+import { BusinessCardModule } from './ business-card/business-card.module'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ShoppingModule } from './shopping/shopping.module'
     ServicePriceModule,
     PortfolioModule,
     LandingModule,
-    ShoppingModule
+    ShoppingModule,
+    BusinessCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
