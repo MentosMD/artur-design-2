@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,7 +11,7 @@ import { ServicePriceModule } from './service-price/service-price.module'
 import { PortfolioModule } from './portfolio/portfolio.module'
 import { LandingModule } from './landing/landing.module'
 import { ShoppingModule } from './shopping/shopping.module'
-import { BusinessCardModule } from './ business-card/business-card.module'
+import { BusinessCardModule } from './business-card/business-card.module'
 
 @NgModule({
   declarations: [
