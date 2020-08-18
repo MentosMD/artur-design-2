@@ -111,6 +111,7 @@
 .container-latest-works {
     height: 606px;
     margin-top: 10%;
+    margin-bottom: 3em;
     .center {
         height: 100%;
         .title {
@@ -134,6 +135,8 @@
 }
 .container-our-projects {
     height: 861px;
+    background: #F6F6FB;
+    padding-top: 9em;
     .title {
         color: #2D3AAD;
         font-family: Oswald;
@@ -146,9 +149,14 @@
         font-size: 32px;
         line-height: 40px
     }
+    .slider {
+        margin-top: 2em;
+    }
 }
 .container-form {
     height: 481px;
+    padding-top: 7em;
+    margin-bottom: 8em;
     .title {
         color: #2D3AAD;
         font-family: Oswald;
@@ -180,6 +188,15 @@
             margin-left: 19%;
             padding-top: 1em;
             padding-left: 1em;
+        }
+        .btn-submit {
+            background: #211F9E;
+            border-radius: 3px;
+            border: none;
+            width: 226px;
+            height: 49px;
+            color: white;
+            margin-top: 1em;
         }
     }
 }

@@ -6,6 +6,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component'
 import { FooterComponent } from './footer/footer.component'
 import { CarouselComponent } from './carousel/carousel.component'
+import { PopupComponent } from './popup/popup.component'
+import { PopupFormRequestComponent } from './popup-form-request/popup-form-request.component'
 
 
 @NgModule({
@@ -17,12 +19,16 @@ import { CarouselComponent } from './carousel/carousel.component'
     declarations: [
         HeaderComponent,
         FooterComponent,
-        CarouselComponent
+        CarouselComponent,
+        PopupComponent,
+        PopupFormRequestComponent
     ],
     exports: [
         HeaderComponent,
         FooterComponent,
-        CarouselComponent
+        CarouselComponent,
+        PopupComponent,
+        PopupFormRequestComponent
     ]
 })
 export class SharedModule {}
