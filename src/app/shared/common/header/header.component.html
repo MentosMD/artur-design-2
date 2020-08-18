@@ -10,7 +10,14 @@
                         <a href="/portfolio">Портфолио</a>
                     </li>
                     <li>
-                        <a href="/services">Услуги и Цены</a>
+                        <div ngbDropdown class="d-inline-block">
+                            <a href="#" id="dropdownBasic1" ngbDropdownToggle>Услуги и Цены</a>
+                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                              <a href="/services/landing" ngbDropdownItem>Сайт лендинг</a>
+                              <a href="/services/shopping" ngbDropdownItem>Сайт интернет-магазин</a>
+                              <a href="/services/business-card" ngbDropdownItem>Сайт визитка</a>
+                            </div>
+                          </div>
                     </li>
                     <li>
                         <a href="">Информация</a>

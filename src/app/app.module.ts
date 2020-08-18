@@ -13,6 +13,8 @@ import { LandingModule } from './landing/landing.module'
 import { ShoppingModule } from './shopping/shopping.module'
 import { BusinessCardModule } from './business-card/business-card.module'
 
+import { MobileModule } from './mobile-development/mobile.module'
+
 @NgModule({
   declarations: [
     AppComponent
@@ -27,7 +29,8 @@ import { BusinessCardModule } from './business-card/business-card.module'
     PortfolioModule,
     LandingModule,
     ShoppingModule,
-    BusinessCardModule
+    BusinessCardModule,
+    MobileModule
   ],
   providers: [],
   bootstrap: [AppComponent]

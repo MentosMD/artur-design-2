@@ -8,10 +8,14 @@ import { LandingComponent } from './landing/landing.component'
 import { ShoppingComponent } from './shopping/shopping.component'
 import { BusinessCardComponent } from './business-card/ business-card.component'
 
+import { MobileComponent } from './mobile-development/mobile.component'
+
+const SCREEN = window.screen.width > 767 ? HomeComponent : MobileComponent
+
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: SCREEN
   },
   {
     path: 'services',
